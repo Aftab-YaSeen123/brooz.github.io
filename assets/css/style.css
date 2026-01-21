@@ -41,7 +41,7 @@ a {
 }
 
 h1 {
-   font-size: 60px;
+   font-size: 100px;
    color: var(--white);
    font-weight: 700;
 }
@@ -58,45 +58,34 @@ img {
 
 .site-btn {
    background: none;
-   display: flex;
+   display: inline-flex;
    justify-content: center;
    align-items: center;
+   gap: 10px;
    min-width: 180px;
    font-size: 18px;
    cursor: pointer;
    font-weight: 400;
    position: relative;
    z-index: 1;
-   border: 2px solid var(--primary);
-   color: var(--white);
-   background-color: var(--primary);
+   outline: 2px solid white;
+   outline-offset: 3.5px;
+   color: #002a3c;
+   background-color: white;
    overflow: hidden;
    transition: 0.3s all ease;
-   padding: 10px 30px;
-}
-
-.site-btn::before {
-   content: "";
-   position: absolute;
-   z-index: -1;
-   width: 0;
-   height: 100%;
-   left: 0;
-   right: 0;
-   margin: auto;
-   bottom: 0;
-   top: 0;
-   background-color: var(--white);
-   transition: all 0.2s ease;
-}
-
-.site-btn:hover:before {
-   width: 100%;
-   transition: all 0.2s ease;
+   padding: 10px 5px 10px 30px;
+   border-radius: 30px;
 }
 
 .site-btn:hover {
-   color: var(--primary);
+   color: white;
+   background-color: #002a3c;
+
+}
+
+.site-btn i {
+   font-size: 30px;
 }
 
 /* header  */
@@ -157,13 +146,13 @@ img {
 
 .banner {
    padding: 200px 0;
-   background-image: url(../images/bg-banner.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    min-height: 100vh;
    display: flex;
    justify-content: center;
    align-items: center;
+   overflow: hidden;
 }
 
 .banner :where(.first-show, .second-show) {
@@ -176,6 +165,7 @@ img {
       transform: scale(0.9);
       opacity: 0;
    }
+
    100% {
       transform: scale(1);
       opacity: 1;
@@ -192,7 +182,9 @@ img {
    align-items: center;
    position: relative;
    animation: popUp 0.3s ease-in;
+   text-align: center;
 }
+
 .inner-title-content {
    display: inline-block;
    position: relative;
@@ -209,33 +201,23 @@ img {
 }
 
 .title-content h1 {
-   max-width: 240px;
-   position: absolute;
-   width: 100%;
-   height: max-content;
    animation: boldText 1.2s ease-in;
    color: white;
    line-height: 0.8;
-   position: absolute;
-   top: -45px;
-   left: -11%;
-   font-size: 60px;
-   z-index: 1;
-   right: unset;
-   bottom: unset;
-   text-align: left;
+   text-align: center;
 }
 
 .title-content p {
-   font-size: 16px;
+   font-size: 30px;
    line-height: 1;
    color: white;
+   margin-top: 5px;
    position: absolute;
-   top: -3px;
-   right: -170px;
+   left: 0;
+   right: 0;
 }
 
-.title-content > p {
+.title-content>p {
    left: 0;
    bottom: 0;
    top: unset;
@@ -250,13 +232,59 @@ img {
 .arrow-time svg {
    max-width: 110px;
    position: absolute;
-   bottom: -36px;
-   right: -90px;
+   bottom: -105px;
+   right: -1px;
 }
 
 .first-show video,
 .inner-title-content video {
+   position: fixed;
+   top: 0;
+   left: 0;
    width: 100%;
-   max-width: 710px;
-   height: auto;
+   object-fit: cover;
+   height: 100%;
+   z-index: -1;
+}
+
+.overlay {
+   background-color: rgba(15, 36, 90, 0.6);
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+}
+
+
+/* priority  */
+
+.container {
+   max-width: unset;
+   margin: unset;
+   padding: 0 8%;
+}
+
+.priority .wrapper {
+   background-image: url(../images/priority-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 50px;
+   border-radius: 40px;
+   color: white;
+}
+
+.priority .text h2 {
+   font-size: 55px;
+   margin-bottom: 40px;
+}
+
+.priority .text p {
+   margin-top: 15px;
+   font-size: 28px;
+}
+
+.priority .site-btn {
+   margin-top: 50px;
 }
