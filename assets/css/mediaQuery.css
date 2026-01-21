@@ -1,0 +1,768 @@
+/* dasktop  */
+@media (max-width: 1719px) {
+  .banner {
+    padding: 150px 0 30px;
+    height: 100%;
+    position: relative;
+  }
+
+  .about-banner {
+    margin-bottom: unset;
+    background-position: bottom 0 center;
+  }
+
+  .about-banner .second-show {
+    padding-top: 0;
+  }
+
+  .about-banner .wrapper {
+    padding: 0;
+  }
+
+  .about-banner.top-grid::after {
+    display: none;
+  }
+
+  .top-grid::after {
+    bottom: -2px;
+  }
+
+  /* ac service  */
+  .bg-slider {
+    padding: 150px 0;
+    height: 100%;
+  }
+
+  .ac-service-banner {
+    padding-top: 100px;
+  }
+
+  /* blog page  */
+  .blog-banner {
+    height: unset;
+    padding: 200px 0;
+  }
+
+  /* location inner page */
+  .locs-banner {
+    z-index: 1;
+  }
+
+  .locs-banner .wrapper {
+    height: 100%;
+    padding: 200px 0 100px;
+  }
+
+  .locs-banner {
+    padding: 0;
+  }
+
+  .bottom-text {
+    margin-top: 50px;
+  }
+
+  /* home page  */
+  .media-banner {
+    height: 100vh;
+    padding: 0 !important;
+  }
+}
+
+/* smal dasktop  */
+@media (max-width: 1199px) {
+  .header ul li a {
+    padding: 0 0 0 30px !important;
+  }
+
+  /* service page  */
+  .service-banner .text p {
+    font-size: 20px;
+    margin: 10px 0 20px;
+  }
+
+  .service-banner .text h1 {
+    font-size: 50px;
+  }
+
+  .our-services .inner-wrapper .img h4 {
+    font-size: 20px;
+  }
+
+  /* footer  */
+  .footer {
+    padding-top: 100px;
+  }
+
+  /* blog-artical  page */
+  .blog-artical .img img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .blog-artical .text h2 {
+    font-size: 35px;
+  }
+
+  .blog-artical p {
+    font-size: 20px;
+  }
+
+  /* location page  */
+  .locs-banner .title h1 {
+    font-size: 40px;
+  }
+
+  .locs-banner .title div>span {
+    font-size: 20px;
+  }
+
+  .locs-banner .title h3 span {
+    font-size: 70px;
+  }
+
+  .bottom-text p {
+    font-size: 20px;
+  }
+
+  .section-1 .text h2 {
+    font-size: 40px;
+  }
+
+  .section-1 .text h2 br {
+    display: none;
+  }
+
+  .section-1 .text p {
+    font-size: 17px;
+  }
+  
+}
+
+/* tablate */
+@media (max-width: 991px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .header .navbar-collapse {
+    background-color: white;
+    padding: 10px;
+  }
+
+  .header ul li a {
+    padding-left: 5px !important;
+  }
+
+  .about-banner .second-show .text h1 {
+    font-size: 80px;
+  }
+
+  .header .navbar-brand img {
+    max-width: 150px;
+  }
+
+  /* ac service  */
+  .ac-service-banner .wrapper .title h1 {
+    font-size: 40px;
+  }
+
+  .ac-service-banner .wrapper .title span {
+    font-size: 16px;
+  }
+
+  .ac-service-banner .wrapper .title p {
+    font-size: 18px;
+  }
+
+  /* locations  */
+  .location-banner h3 span {
+    font-size: 50px;
+  }
+
+  .location-banner .row a h2 {
+    font-size: 30px;
+  }
+
+  /* locations inner page  */
+  .bottom-text p {
+    font-size: 16px;
+  }
+
+  .bottom-text p i {
+    font-size: 25px;
+  }
+
+  .map {
+    margin-top: 50px;
+  }
+
+  /* .footer  */
+  .footer {
+    padding-top: 100px;
+  }
+
+  /* service  */
+  .service-banner .text h1 {
+    font-size: 33px;
+  }
+
+  .swiper-slide {
+    padding: 15px;
+  }
+
+  .service-banner {
+    padding-top: 150px;
+  }
+
+  .service-banner .flex-column-reverse .col-md-6:nth-child(2) {
+    max-width: 320px;
+    margin: auto;
+  }
+
+  /* blog page  */
+  .blog-banner {
+    padding: 150px 0 50px;
+  }
+
+  .blog-banner .section-title .inner-text h1 {
+    font-size: 40px;
+    margin: 15px 0;
+  }
+
+  .blog-banner .section-title .inner-text p {
+    font-size: 17px;
+  }
+
+  .blog-banner .section-title .inner-text>span {
+    font-size: 16px;
+  }
+
+  /* .blog-section */
+  .blog-section {
+    padding: 50px 0 25px;
+  }
+
+  .blog-section .my-card .text h3 {
+    font-size: 23px;
+  }
+
+  .blog-section .title h2 {
+    margin-bottom: 20px;
+  }
+
+  .blog-section .my-card .text > span {
+    font-size: 14px;
+  }
+
+  .blog-section button span,
+  .blog-banner button span {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .header .navbar-brand img {
+    max-width: 100px;
+  }
+
+  .banner {
+    padding: 120px 0 25px;
+  }
+
+  .about-banner .therd-show .section-title h1 {
+    font-size: 30px;
+  }
+
+  .about-banner .second-show .text h1 {
+    font-size: 50px;
+  }
+
+  .about-banner .second-show .text p {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+
+  .about-banner .therd-show .section-title h3 span {
+    font-size: 40px;
+  }
+
+  .about-banner .therd-show :where(.images, .images-2, .images-3, .images-4) {
+    flex-direction: column;
+    align-items: unset !important;
+  }
+
+  .about-banner .therd-show :where(.images, .images-2, .images-3, .images-4) img {
+    width: 100% !important;
+    max-height: unset;
+  }
+
+  .about-banner .therd-show .images-3 .inner-row {
+    align-items: unset;
+  }
+
+  .about-banner .therd-show .images-2 .img:last-of-type {
+    margin-top: 0;
+  }
+
+  .about-banner .therd-show .images-4 {
+    gap: 30px;
+  }
+
+  /* footer */
+  .footer {
+    padding-top: 50px;
+  }
+
+  .footer .logo img {
+    max-width: 200px;
+  }
+
+  .about-banner .therd-show .img img:hover {
+    transform: scale(1.05);
+  }
+
+  /* ac service  */
+  .ac-service-banner .wrapper .title :where(p, h1) br {
+    display: none;
+  }
+
+  .ac-service-banner .wrapper .title h1 {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
+  .bg-slider {
+    padding: 50px 0 100px;
+  }
+
+  .ac-service-banner .wrapper .title p {
+    margin: 20px 0;
+  }
+
+  .site-btn {
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+
+  .copywright {
+    text-align: left !important;
+  }
+
+  /* our service page  */
+  .service-banner {
+    padding-bottom: 10px;
+  }
+
+  .service-banner .text p {
+    font-size: 16px;
+  }
+
+  .input-field input {
+    max-width: 90px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+  }
+
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 14px;
+  }
+
+  .our-services .inner-wrapper .row.mt-4 {
+    margin-top: 0px !important;
+  }
+
+  .our-services .inner-title h2 {
+    font-size: 30px;
+    margin: 20px 0;
+  }
+
+  .our-services button {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .our-services button p {
+    text-align: left;
+  }
+
+  /* blog page  */
+  .blog-banner .section-title .inner-text h1 {
+    font-size: 28px;
+  }
+
+  .blog-section .title h2 {
+    font-size: 30px;
+  }
+
+  .blog-section .my-card .text h3 {
+    margin: 10px 0;
+  }
+
+  .blog-banner .section-title .inner-text p br {
+    display: none;
+  }
+
+  .blog-artical {
+    padding-top: 50px;
+  }
+
+  .blog-artical .text h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .blog-artical p {
+    font-size: 16px;
+  }
+
+  .blog-artical .text-last p {
+    margin-top: 30px;
+  }
+
+  /* locations inner pag } */
+  .locs-banner .wrapper {
+    padding: 150px 0 40px;
+  }
+
+  .locs-banner {
+    padding: 0;
+  }
+
+  .locs-banner .title h3 span {
+    font-size: 50px;
+  }
+
+  .locs-banner .title h1 {
+    font-size: 30px;
+  }
+
+  .locs-banner .title div>span {
+    font-size: 16px;
+  }
+
+  .bottom-text {
+    flex-direction: column;
+    align-items: start;
+    margin-top: 30px;
+  }
+
+  .bottom-text p {
+    flex: unset;
+    max-width: 300px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .bottom-text p:last-child {
+    gap: 92px;
+  }
+
+  .section-1 {
+    padding: 50px 0;
+  }
+
+  .section-1 .text h2 {
+    font-size: 30px;
+  }
+
+  .section-1 .text p {
+    margin: 10px 0 15px;
+  }
+
+  .map iframe {
+    min-height: 300px;
+  }
+
+  .map {
+    margin-bottom: 0;
+  }
+
+  /* financing page  */
+  .financing-banner .row .my-card h2 {
+    min-height: unset;
+  }
+
+  .financing-banner .wrapper .title p {
+    margin: 10px 0;
+  }
+}
+
+/* updated media quary start from here  */
+
+
+.footer{
+  background-color:white;
+}
+
+
+@media (max-width: 1719px) {
+  .section-1 .text h2 {
+    font-size: 40px;
+  }
+
+  .service-banner .text p {
+    font-size: 30px;
+  }
+
+  .hover-card {
+    display: none;
+  }
+
+  .detail-dots:hover .hover-card {
+    display: block;
+  }
+}
+
+@media (max-width: 1199px) {
+
+  .service-banner .text h1 {
+    font-size: 40px;
+  }
+  .service-banner .flex-column-reverse .col-md-6:nth-child(2){
+    max-width: 400px ;
+    margin: auto;
+  }
+  .hover-card .img img {
+    object-fit: cover;
+    
+  }
+  .hover-card{
+    min-width: 625px ;
+  }
+  .hover-card .text h3{
+    font-size: 22px ;
+  }
+  .hover-card .text p{
+    font-size: 16px ;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .hover-card{
+    min-width: 500px ;
+  }
+ 
+  .detail-dots:nth-child(1) .hover-card{
+    padding: 20px ;
+  }
+  .hover-card .text p{
+    margin: 10px ;
+  }
+  .hover-card .site-btn{
+    font-size: 14px ;
+  }
+
+  /* barger manu  */
+  .header .menu-btn {
+    position: relative;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    border: unset;
+  }
+
+  .menu-btn__burger {
+    width: 100%;
+    height: 4px;
+    background-color: var(--navyblue);
+    border-radius: 2px;
+    transition: all 0.2s ease;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+
+  .menu-btn__burger::before,
+  .menu-btn__burger::after {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: var(--primary);
+    border-radius: 2px;
+    transition: all 0.2s ease;
+    position: absolute;
+    left: 0;
+  }
+
+  .menu-btn__burger::before {
+    top: -10px;
+  }
+
+  .menu-btn__burger::after {
+    top: 10px;
+  }
+
+  .menu-btn.open .menu-btn__burger {
+    transform: rotate(45deg);
+  }
+
+  .menu-btn.open .menu-btn__burger::before {
+    transform: rotate(90deg);
+    top: 0;
+  }
+
+  .menu-btn.open .menu-btn__burger::after {
+    transform: rotate(90deg);
+    top: 0;
+  }
+
+  .header .menu-btn:focus {
+    border: unset;
+    box-shadow: unset;
+  }
+
+  .second-show .title h3 span {
+    font-size: 90px;
+  }
+
+  .first-show .img img {
+    max-width: 500px;
+  }
+
+  .marker span {
+    width: 25px;
+  }
+
+  .marker {
+    padding: 6px;
+  }
+  
+
+  /* about page  */
+  .about-banner .therd-show .section-title h3 span {
+    font-size: 60px;
+  }
+
+  .about-banner .therd-show .section-title h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+  }
+
+  .location-banner {
+    padding: 150px 0 50px;
+  }
+
+  .second-show .title h3 span {
+    font-size: 65px;
+  }
+
+  .section-1 .text p {
+    margin-top: 10px;
+  }
+
+/* secvice page  */
+
+  .our-services .inner-wrapper .img h4 {
+    font-size: 15px;
+  }
+
+  .our-services .inner-title h2 {
+    font-size: 44px;
+    margin: 10px 0;
+  }
+
+  .section-1 {
+    padding: 50px 0;
+  }
+
+  .service-banner .text h1 {
+    font-size: 31px;
+}
+
+.service-banner .text p {
+  font-size: 20px;
+}
+/* blog page  */
+.blog-artical .text h2 {
+  font-size: 28px;
+  margin-bottom: 10px ;
+}
+.blog-artical p {
+  font-size: 16px;
+}
+.blog-artical .row {
+  margin-bottom: 30px;
+}
+/* service page  */
+.service-banner .flex-column-reverse .col-md-6:nth-child(2){
+  max-width: 300px ;
+}
+}
+@media (max-width: 767px){
+  h1,h2{
+    font-size: 30px !important;
+  }
+
+  p{
+    font-size: 15px !important;
+  }
+  .header{
+    padding: 0;
+  }
+
+  /* home page  */
+  .first-show .img img {
+    max-width: 300px;
+}
+.marker {
+  padding: 4px;
+}
+.marker span {
+  width: 20px;
+}
+/* about page  */
+.about-banner .therd-show .section-title h3 span {
+  font-size: 40px;
+}
+/* location page   */
+.location-banner h3 span{
+  margin: 10px 0 20px ;
+}
+/* location page  */
+    .second-show .title h3 span {
+        font-size: 47px;
+    }
+    .section-1 .text h2{
+      font-size: 25px  !important;
+    }
+    .section-1{
+      padding: 25px 0;
+    }
+    .our-services{
+    padding-top: 20px !important;
+    }
+
+  /* footer  */
+  .footer .row > :nth-child(4) .inner-row .locations{
+    flex-direction: column;
+    gap: 0;
+  }
+  .footer .row > :nth-child(4) .inner-row .locations div p {
+    margin-bottom: 15px;
+}
+.email-box .site-btn{
+  min-width: unset;
+  padding: 10px ;
+  font-size: 14px;
+}
+.footer{
+  padding: 25px 0 20px ;
+}
+.footer .text :where(a, p){
+  margin-bottom: 5px  ;
+}
+}
+
+@media (max-width: 767px) {
+  .service-banner .flex-column-reverse .col-md-6:nth-child(2) {
+      max-width: 268px;
+  }
+}

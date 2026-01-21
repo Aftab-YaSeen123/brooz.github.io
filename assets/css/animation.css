@@ -1,0 +1,83 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.about-banner .second-show {
+  animation: fade-in 2.5s ease-in-out;
+}
+.location-banner .wrapper {
+  animation: fade-in 2s ease-in;
+}
+
+/*  animation scale  */
+@keyframes scale-text {
+  0% {
+    transform: scale(1.8) translateY(-30px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
+
+.second-show .title h3 span {
+  animation: scale-text 2s ease-in-out;
+}
+/* translate bottom to top */
+@keyframes translate {
+  0% {
+    transform: translateY(400px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.therd-show {
+  animation: translate 1s ease-in-out;
+}
+
+/* translate-Y  */
+
+@keyframes translate-Y {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.second-show .title {
+  animation: translate-Y 1.5s ease-in-out;
+}
+
+/* ac service  */
+@keyframes translate-Yt {
+  0% {
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+  80%,
+  90% {
+    transform: translateY(30px);
+    opacity: 1;
+  }
+  90%,
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.active-3 {
+  animation: translate-Yt 2s ease-out !important;
+}
