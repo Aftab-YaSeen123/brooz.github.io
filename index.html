@@ -100,19 +100,115 @@
       <div class="container">
          <div class="wrapper">
             <div class="text">
-               <h2>Why choose brooz advertising?</h2>
-               <p>At Brooz Advertising, we bring over a decade of expertise in branding, fabrication, and event solutions to deliver exceptional results for your business.</p>
+               <h2 class="reveal">Why choose brooz advertising?</h2>
+               <p class="reveal">At Brooz Advertising, we bring over a decade of expertise in branding, fabrication, and event solutions to deliver exceptional <br>for your business.</p>
 
-               <p>Our journey from a raw material distributor to a full-fledged advertising powerhouse, equipped with over 20 advanced fabrication and printing machines, sets us apart.</p>
+               <p class="reveal">Our journey from a raw material distributor to a full-fledged advertising powerhouse, equipped with over 20 advanced <br>fabrication and printing machines, sets us apart.</p>
 
-               <p> Whether it’s crafting unique brand experiences, high-quality prints, or eye-catching woodwork for events, we have the tools, talent, and experience to bring your vision to life.</p>
+               <p class="reveal"> Whether it’s crafting unique brand experiences, high-quality prints, or eye-catching woodwork for events, we have the tools, <br>talent, and experience to bring your vision to life.</p>
 
-               <p>We’re not just creating campaigns; we’re building lasting impressions. <br>Trust Brooz Advertising to elevate your brand to new heights!</p>
+               <p class="reveal">We’re not just creating campaigns; we’re building lasting impressions. <br>Trust Brooz Advertising to elevate your brand to new heights!</p>
 
-               <a href="#" class="site-btn">MORE ABOUT US<i class="fa-solid fa-circle-chevron-right"></i></a>
+               <a href="#" class="site-btn reveal">MORE ABOUT US<i class="fa-solid fa-circle-chevron-right"></i></a>
             </div>
          </div>
       </div>
+   </section>
+
+   <!-- counter-video  -->
+   <section class="counter-video">
+      <div class="container">
+         <div class="wrapper">
+            <div class="row">
+               <div class="col-md-5">
+                  <div class="counter">
+                     <div class="counter-text">
+                        <h2><span class="count-me" data-target="1200">0</span>+</h2>
+                        <span>Projects</span>
+                     </div>
+                     <div class="counter-text mt-5">
+                        <h2><span class="count-me" data-target="400">0</span>+</h2>
+                        <span>Clients</span>
+                     </div>
+                     <div class="text">
+                        <p>We have learned and proved to our customers that <br>our combination of experience and passion is <br>the key to our sustainable success/ growth.</p>
+                        <a href="#" class="site-btn">our work<i class="fa-solid fa-circle-chevron-right"></i></a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-7">
+                  <div class="video h-100">
+                     <a class="video-thumbnail layer" href="https://youtu.be/1TeOk0VsBeM?si=MzPD45V377SdwQ6o">
+                        <img src="assets/images/car-img.png">
+                        <div class="play-btn">
+                           <img src="assets/images/play-btn.png" alt="play-btn">
+                        </div>
+                     </a>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="two-colm">
+      <div class="container">
+         <div class="wrapper position-relative z-1">
+            <div class="abs-heading">
+               <div class="abs-alphabet alph1">
+                  <img src="assets/images/s-alphabet.svg" alt="Alphabet">
+               </div>
+               <div class="abs-alphabet alph2">
+                  <img src="assets/images/t-alphabet.svg" alt="Alphabet">
+               </div>
+               <div class="abs-alphabet alph3">
+                  <img src="assets/images/o-alphabet.svg" alt="Alphabet">
+               </div>
+               <div class="abs-alphabet alph4">
+                  <img src="assets/images/r-alphabet.svg" alt="Alphabet">
+               </div>
+               <div class="abs-alphabet alph5">
+                  <img src="assets/images/e-alphabet.svg" alt="Alphabet">
+               </div>
+            </div>
+            <div class="inner-wrapper">
+               <div class="row align-items-center">
+                  <div class="col-md-6">
+                     <div class="cart-image">
+                        <div class="bg"></div>
+                        <div class="abs-tag tag1">
+                           <img src="assets/images/branding.png" alt="Image">
+                        </div>
+                        <div class="abs-tag tag2">
+                           <img src="assets/images/banner.png" alt="Image">
+                        </div>
+                        <div class="abs-tag tag3">
+                           <img src="assets/images/printed-shirt.png" alt="Image">
+                        </div>
+                        <div class="abs-tag tag4">
+                           <img src="assets/images/sticker.png" alt="Image">
+                        </div>
+                        <div class="abs-tag tag5">
+                           <img src="assets/images/buckets.png" alt="Image">
+                        </div>
+                        <div class="abs-tag tag6">
+                           <img src="assets/images/printed-flag.png" alt="Image">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-5">
+                     <div class="two-colm-text">
+                        <h2>Visit Our Store</h2>
+                        <p>Now you can easily purchase our high-quality advertising materials through <br>our online store. Browse, customize, and order everything from banners to signage, <br>all from the convenience of our e-commerce platform.</p>
+                        <a href="#" class="site-btn">our store<i class="fa-solid fa-circle-chevron-right"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
    </section>
 
    <script src="assets/libs/jquery.min.js"></script>
@@ -120,12 +216,12 @@
    <script src="assets/libs/fancybox/fancybox.umd.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
    <script src="assets/libs/jquery.custom.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
    <script>
       AOS.init({
          once: true,
       });
    </script>
-
    <script>
       $(document).ready(function () {
          setTimeout(function () {
@@ -138,6 +234,99 @@
             $(".arrow-time").fadeIn(1000);
          }, 7500);
       });
+   </script>
+
+
+   <!-- priority  -->
+   <script>
+      window.onload = function () {
+
+         // --- 1. HELPER: Split text into spans while keeping <br> tags ---
+         const prepareText = (el) => {
+            if (!el) return [];
+            const content = el.innerHTML.trim();
+            el.innerHTML = '';
+
+            const lines = content.split(/<br\s*\/?>/i);
+
+            lines.forEach((line, index) => {
+               const temp = document.createElement('div');
+               temp.innerHTML = line;
+               const lineContent = temp.textContent;
+
+               [...lineContent].forEach(char => {
+                  const span = document.createElement('span');
+                  span.textContent = char === ' ' ? '\u00A0' : char;
+                  span.style.display = 'inline-block';
+                  el.appendChild(span);
+               });
+
+               if (index < lines.length - 1) {
+                  el.appendChild(document.createElement('br'));
+               }
+            });
+
+            return el.querySelectorAll('span');
+         };
+
+         // --- 2. TEXT ANIMATION TIMELINE (Priority Section) ---
+         const tl = anime.timeline({
+            easing: 'easeOutExpo',
+            duration: 800
+         });
+
+         const heading = document.querySelector('.priority .text h2');
+         // const paragraphs = document.querySelectorAll('.priority .text p');
+         // const button = document.querySelector('.priority .text .site-btn');
+
+         // Add Heading to Timeline
+         if (heading) {
+            tl.add({
+               targets: prepareText(heading),
+               translateY: ['110%', '0%'],
+               opacity: [0, 1],
+               delay: anime.stagger(20)
+            });
+         }
+
+         // Add Paragraphs to Timeline sequentially
+         paragraphs.forEach((p) => {
+            tl.add({
+               targets: prepareText(p),
+               translateY: ['110%', '0%'],
+               opacity: [0, 1],
+               delay: anime.stagger(10)
+            }, '-=600');
+         });
+
+         // Add Button to Timeline
+         if (button) {
+            tl.add({
+               targets: button,
+               opacity: [0, 1],
+               scale: [0.9, 1],
+               duration: 500
+            }, '-=400');
+         }
+
+         // --- 3. NUMBER COUNTER (Projects/Clients Section) ---
+         const counters = document.querySelectorAll('.count-me');
+
+         counters.forEach((counter) => {
+            const targetValue = parseInt(counter.getAttribute('data-target'));
+
+            anime({
+               targets: counter,
+               innerHTML: [0, targetValue],
+               easing: 'linear',
+               duration: 2000,
+               round: 1,
+               begin: function () {
+                  counter.innerHTML = '0';
+               }
+            });
+         });
+      };
    </script>
 
 </body>
