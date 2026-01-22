@@ -76,6 +76,7 @@ img {
    transition: 0.3s all ease;
    padding: 10px 5px 10px 30px;
    border-radius: 30px;
+   text-transform: uppercase;
 }
 
 .site-btn:hover {
@@ -263,7 +264,7 @@ img {
 .container {
    max-width: unset;
    margin: unset;
-   padding: 0 8%;
+   padding: 0 5%;
 }
 
 .priority .wrapper {
@@ -287,4 +288,258 @@ img {
 
 .priority .site-btn {
    margin-top: 50px;
+}
+
+/* counter-video  */
+
+.counter-video {
+   padding: 24px 0 40px;
+}
+
+.counter {
+   background-color: #09153a;
+   padding: 40px;
+   border-radius: 40px;
+}
+
+.counter-text h2 {
+   font-size: 118px;
+   color: #80c7ee;
+   line-height: 0.7;
+}
+
+.counter-text span {
+   color: white;
+   font-size: 42px;
+
+}
+
+.counter p {
+   color: white;
+   font-size: 22px;
+   margin: 20px 0 30px;
+}
+
+.counter .site-btn {
+   color: white;
+   background-color: #80c7ee;
+   outline-color: #80c7ee;
+}
+
+.counter .site-btn:hover {
+   background-color: white;
+   outline-color: white;
+   color: #09153a;
+
+}
+
+.video-thumbnail {
+   position: relative;
+   z-index: 1;
+   display: flex;
+   height: 100%;
+   border-radius: 50px;
+   overflow: hidden;
+}
+
+.layer::before {
+   content: "";
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   top: 0;
+   left: 0;
+   border-radius: 50px;
+   background: rgb(11, 22, 58, 0.8);
+}
+
+.play-btn img {
+   position: absolute;
+   z-index: 2;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: auto;
+   transition: 0.3s all ease;
+   width: auto;
+   max-width: 140px;
+}
+
+/* two-colm  */
+
+@media (min-width: 768px) {
+   .two-colm .row .col-md-6 {
+      width: 52%;
+   }
+
+   .two-colm .row .col-md-5 {
+      width: 48%;
+   }
+}
+
+.two-colm {
+   padding: 210px 0 50px;
+   background-color: white;
+}
+
+.abs-heading {
+   display: flex;
+   align-items: center;
+   gap: 30px;
+   position: absolute;
+   z-index: -1;
+   top: -24%;
+   left: 0;
+}
+
+.two-colm .inner-wrapper {
+   width: 90%;
+   margin: auto;
+}
+
+.abs-alphabet img {
+   min-height: 430px;
+}
+
+
+.two-colm-text h2 {
+   color: #3062ad;
+   font-size: 68px;
+}
+
+.two-colm-text p {
+   font-size: 20px;
+   color: #3062ad;
+   margin: 40px 0;
+}
+
+.two-colm-text .site-btn {
+   background-color: #09153a;
+   color: white;
+   outline-color: #09153a;
+
+}
+
+.two-colm-text .site-btn:hover {
+   background-color: #3062ad;
+   outline-color: #3062ad;
+}
+
+
+.two-colm .cart-image {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   z-index: 1;
+}
+
+.bg {
+   background-color: #80c7ee;
+   border-radius: 180px;
+   height: 600px;
+   width: 295px;
+}
+
+.abs-tag {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: max-content;
+   max-width: 370px;
+}
+
+.tag1 {
+   top: 10%;
+   left: 12%;
+   max-width: 270px;
+}
+
+.tag2 {
+   max-width: 160px;
+   top: 38%;
+   left: 29%;
+}
+
+.tag3 {
+   max-width: 200px;
+   top: 34%;
+   right: 15%;
+   left: unset;
+}
+
+.tag4 {
+   max-width: 195px;
+   top: 55%;
+   left: 6%;
+}
+
+.tag5 {
+   top: 49%;
+   left: 27%;
+   right: unset;
+
+}
+
+.tag6 {
+   max-width: 165px;
+   top: unset;
+   bottom: 2%;
+   left: unset;
+   right: 28%;
+}
+
+.priority .text h2,
+.priority .text p {
+   overflow: hidden;
+   display: block;
+   line-height: 1.4;
+   /* Adjust to ensure spans aren't cut off at the top */
+}
+
+.priority .text p span {
+   will-change: transform;
+}
+
+.priority .text .site-btn {
+   opacity: 0;
+   /* Start hidden so the timeline can fade it in */
+}
+
+
+
+.priority .text>* {
+   opacity: 0;
+   transform: translateY(20px);
+   animation: reveal 0.6s ease forwards;
+}
+
+.priority .text>*:nth-child(2) {
+   animation-delay: 1s;
+}
+
+.priority .text>*:nth-child(3) {
+   animation-delay: 1.7s;
+}
+
+.priority .text>*:nth-child(4) {
+   animation-delay: 1.9s;
+}
+
+.priority .text>*:nth-child(5) {
+   animation-delay: 2.3s;
+}
+
+.priority .text>*:nth-child(6) {
+   animation-delay: 2.7s;
+}
+
+
+@keyframes reveal {
+   to {
+      opacity: 1;
+      transform: translateY(0);
+   }
 }
